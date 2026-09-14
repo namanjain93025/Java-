@@ -1,4 +1,5 @@
 package pro.amazon.service;
 
-public class IDeliviryService {
+public interface IDeliviryService {
+     Boolean deliveryProduct(Double amount);
 }
