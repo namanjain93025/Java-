@@ -10,8 +10,8 @@ public class LaunchStringBuilder {
         System.out.println(sb2);//StringBuilder had overridden the obj2
         //only diff b/w both class in sync and async
 
-        /*
-        * String
+     /* 
+     * String
     → immutable
     → equals() compares content
     → toString() returns content
@@ -26,6 +26,6 @@ StringBuffer
     → equals() does NOT compare content
     → toString() returns content
     → synchronized/thread-safe
-        * */
+    * */
     }
 }
