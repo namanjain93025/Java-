@@ -10,6 +10,8 @@ public class LaunchStringMutable1 {
         StringBuilder s = new StringBuilder("Naman ");
         System.out.println(s);
         s.append("jain");
+        s.append(12);
+        s.append(true);
         System.out.println(s);
     }
 }
