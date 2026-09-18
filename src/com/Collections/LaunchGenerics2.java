@@ -17,5 +17,8 @@ public class LaunchGenerics2 {
       Generics<Integer> g = new Generics<>(33);
         g.disp();
         System.out.println(g.getRef());
+        Generics<String> gr = new Generics<>("aman");
+//     Generics<Integer> ge = new Generics<>("Naman");//error
+//
  }
 }
