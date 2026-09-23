@@ -7,6 +7,7 @@ class  Animal {
         System.out.println("Animal is running");
     }
 }
+
 class Lion extends Animal{
     void sound(){
         System.out.println("lion makes roar");
