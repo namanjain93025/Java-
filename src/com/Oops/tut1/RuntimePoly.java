@@ -40,6 +40,8 @@ public class RuntimePoly {
         Animal b = new Tiger();
         a.run();
         a.sound();
+        ((Lion)a).sound();
+        ///////////////////////////////////
         ((Lion) a).eat();//downcasting
         b.run();
         b.sound();

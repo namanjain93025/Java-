@@ -1,15 +1,43 @@
+import java.util.ArrayList;
+import java.util.Objects;
+
+class Student{
+    int id;
+    Student(int a){
+        this.id =a;
+    }
+    @Override
+    public String toString(){
+        return "id  : "+id;
+    }
+}
+class Abc <T>{
+    T id ;
+    public Abc(T i) {
+        this.id = i;
+    }
+
+    public String toString(){
+        return "id is  : "+id;
+    }
+
+}
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+    public static void main(String[] args) {
+        ArrayList<Student>al = new ArrayList();
+        al.add(new Student(34));
+        al.add(new Student(23));
+        al.add((new Student(12)));
+        for (Object c: al){
+            System.out.println(c);
         }
+        Abc a  = new Abc(12);
+        Abc b  = new Abc(92);
+        Abc c  = new Abc(82);
+        System.out.println(a);
+
     }
 }

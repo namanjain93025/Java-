@@ -31,7 +31,9 @@ public class ComplexSort2 {
         al.add(new Student1(103,42,"Ayush"));
         al.add(new Student1(104,22,"Rahul"));
         System.out.println(al);
+
         Collections.sort(al);
         System.out.println(al);
+
     }
 }

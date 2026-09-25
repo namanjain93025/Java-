@@ -21,10 +21,11 @@ public class LaunchHM2 {
         while (kitr.hasNext()){
             System.out.println(kitr.next());
         }
-        System.out.println("***********************************");
-//        for (Map.Entry<Integer, String> entry : mp.entrySet()) {
-//            System.out.println(entry);
-//        }
+        System.out.println("********+++++++++++++++++++++++++++++***************************");
+        for (Map.Entry<Integer, String> entry : mp.entrySet()) {
+            System.out.println(entry);
+        }
+        System.out.println("********+++++++++++++++++++++++++++++***************************");
         Set<Map.Entry<Integer, String>> s=mp.entrySet();
         Set st=mp.entrySet();
         Iterator sitr =st.iterator();

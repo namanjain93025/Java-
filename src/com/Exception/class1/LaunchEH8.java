@@ -17,6 +17,7 @@ class Y extends X{
 public class LaunchEH8 {
 
     public static void main(String[] args){
-
+        Y y =new Y();
+        y.x();
     }
 }

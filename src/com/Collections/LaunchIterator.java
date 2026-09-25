@@ -22,11 +22,14 @@ public class LaunchIterator {
 //            System.out.println(it);//ConcurrentModificationException
 //           al.add("hi");
 //        }
-        //this is called as Fail Fast exception
+//        this is called as Fail Fast exception
         Iterator it = al.iterator();
+
         while (it.hasNext()){
+
             System.out.println(it.next());
             al.add(40);//concurrentModification Exception
+
         }
 
 

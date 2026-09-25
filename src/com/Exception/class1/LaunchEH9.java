@@ -26,7 +26,10 @@ class V1 extends X1{
 }
 public class LaunchEH9 {
 
-    public static void main(String[] args){
-
+    public static void main(String[] args) throws Exception{
+        Y1 y=new Y1();
+        X1 x1=new Y1();
+        y.x();
+        x1.x();
     }
 }

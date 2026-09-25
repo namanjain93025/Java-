@@ -20,7 +20,7 @@ class Student{
         return "Student : [ id : "+id+" age :"+age+" Name :"+name+" ]";
     }
 }
-//to sort such  complex objects it is require to use comparable interface
+//to sort such  complex objects it is require to use comparator interface
 //class Alpha implements Comparator {
 //
 //    @Override

@@ -37,9 +37,9 @@ class Beta{
 public class launchEH4 {
 
     public static void main (String[] args){
-        System.out.println("Inside main class");
+        System.out.println("Inside main class -------------");
          Beta b = new Beta();
          b.f();
-        System.out.println("Terminate main class");
+        System.out.println("Terminate main class ----------");
     }
 }
